@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bikcraft - Contato</title>
+	<meta name="description"
+		content="Compre sua bicicleta personalizada na Bikcraft. Modelos esportivos, retrô e de passeio.">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+	<meta property="og:description"
+		content="Compre sua bicicleta personalizada na Bikcraft. Modelos esportivos, retrô e de passeio." />
+	<meta property="og:url" content="http://bickraft.com.br/contato.html" />
+	<meta property="og:image" content="http://bickraft.com.br/img/og-image.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="index.html" class="grid-4">
+				<img src="../Web/img/bikcraft.svg" alt="Bikcraft">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+					<li><a href="contato.html " class="menu_ativo">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="introducao_interna interna_contato">
+		<div class="container">
+			<h1 data-anime=" 400" class="fadeInDown">Contato</h1>
+			<p data-anime=" 800" class="fadeInDown">Tire suas dúvidas aqui</p>
+		</div>
+	</section>
+
+
+	<section data-anime=" 1200" class=" contato fadeInDown">
+		<div class="container">
+			<form id="form_contato" method="POST" action="../Web/enviar.php" class=" form form-contato grid-8 formphp">
+				<label for="nome">Nome</label>
+				<input type="text" id="nome" name="nome" required>
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="fone">Telefone</label>
+				<input type="text" id="fone" name="fone">
+				<label for="msg">Mensagem</label>
+				<textarea id="msg" name="mensagem" required></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+			</form>
+			<div class="contato_dados grid-8">
+				<h3>Dados</h3>
+				<span>+55 61 99999-9999</span>
+				<span class="dados_email">orçamento@bikecraft.com</span>
+				<span>Cln 999 Bloco A Loja 999 - Asa Norte</span>
+				<span>Cep: 99.999-999</span>
+				<span>Brasília-DF</span>
+
+				<div class="grid-8 contato_redes">
+					<h3>REDES SOCIAIS</h3>
+					<ul>
+						<li><a href="http://facebook.com" target="blanc"><img src="../Web/img/redes-sociais/facebook.svg"
+									alt="facebook"></a>
+						</li>
+						<li><a href="http://instagram.com" target="blanc"><img src="../Web/img/redes-sociais/instagram.svg"
+									alt="Instagram"></a>
+						</li>
+						<li><a href="http://twitter.com" target="blanc"><img src="../Web/img/redes-sociais/twitter.svg"
+									alt="Twitter"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mapa_contato grid-16">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1919.8777086607217!2d-47.88235969206962!3d-15.764072765938437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3bb4dd53c16f%3A0xe0d7d3c87a9bd04!2sAsa%20Norte%20Com%C3%A9rcio%20Local%20Norte%20207%20-%20Asa%20Norte%2C%20Bras%C3%ADlia%20-%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1598891002187!5m2!1spt-BR!2sbr"
+					width="940" height="280" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+					tabindex="0"></iframe>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="grid-8 footer_historia">
+					<h3>NOSSA HISTORIA</h3>
+					<p>O Lorem Ipsum É Um Texto Modelo Da Indústria Tipográfica E De Impressão O Lorem Ipsum
+						É Um Texto Modelo da indústria Tipográfica E De Impressão O Lorem Ipsum </p>
+				</div>
+				<div class="grid-4 footer_contato">
+					<h3>CONTATO</h3>
+					<ul>
+						<li>- 61 99999-9999</li>
+						<li>- contato@bikecraft.com.br</li>
+						<li>- Brasília - DF</li>
+					</ul>
+				</div>
+				<div class="grid-4 footer_redes">
+					<h3>REDES SOCIAIS</h3>
+					<ul>
+						<li><a href="http://facebook.com" target="blanc"><img src="../Web/img/redes-sociais/facebook.svg"
+									alt="Facebook"></a></li>
+						<li><a href="http://instagram.com" target="blanc"><img src="../Web/img/redes-sociais/instagram.svg"
+									alt="Instagram"></a>
+						</li>
+						<li><a href="http://twitter.com" target="blanc"><img src="../Web/img/redes-sociais/twitter.svg"
+									alt="Twitter"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copy">
+			<div class="container">
+				<p class="grid-16">Bikecraft 2020 - Alguns direitos reservados</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="../Web/js/simple-anime.js"></script>
+	<script src="../Web/js/script.js"></script>
+</body>
+
+</html>
